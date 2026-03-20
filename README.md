@@ -48,7 +48,7 @@ irm is.gd/winget_ltsc | iex
 
 ## 🧹 Uninstallation Instrustions
 
-# ⚡ Quick
+### ⚡ Quick
 
 ```powershell
 irm is.gd/unstore_ltsc | iex
