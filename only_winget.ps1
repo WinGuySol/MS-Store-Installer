@@ -1,6 +1,6 @@
 # --- CONFIGURATION ---
 $githubUser = "WinGuySol"
-$githubRepo = "MS-Store-AppxBundles"
+$githubRepo = "MS-Store-Installer"
 $branch = "main"
 $ProgressPreference = 'SilentlyContinue'
 
