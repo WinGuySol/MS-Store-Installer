@@ -53,7 +53,6 @@ irm is.gd/winget_ltsc | iex
 ```powershell
 irm is.gd/unstore_ltsc | iex
 ```
-This includes WinGet. 
 
 If you need to remove the Microsoft Store, WinGet, and all associated libraries installed by this project:
 1. Download the following file: `uninstall_store.ps1`
