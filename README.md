@@ -12,7 +12,7 @@ Windows LTSC editions do not come with the Microsoft Store. This repository prov
 The fastest way to install Microsoft Store and its dependencies:
 
 ```powershell
-irm bit.ly/ms-store-ltsc | iex
+irm is.gd/ms_store_ltsc | iex
 ```
 This includes WinGet. 
 
@@ -20,7 +20,7 @@ This includes WinGet.
 If you just want the package manager without the Microsoft Store app:
 
 ```powershell
-irm bit.ly/winget-ltsc | iex
+irm is.gd/winget_ltsc | iex
 ```
 
 ## 🛠️ Manual Installation Order
@@ -47,6 +47,13 @@ irm bit.ly/winget-ltsc | iex
    **Pro Tip:** To save time, type `Add-AppxPackage -Path .\` and press the **Tab key** to automatically cycle through the **filenames** in the folder.
 
 ## 🧹 Uninstallation Instrustions
+
+# ⚡ Quick
+
+```powershell
+irm is.gd/unstore_ltsc | iex
+```
+This includes WinGet. 
 
 If you need to remove the Microsoft Store, WinGet, and all associated libraries installed by this project:
 1. Download the following file: `uninstall_store.ps1`
